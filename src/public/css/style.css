@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.c-top{
+    background-color: #C4170C;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 135px;
+    width: 100%;
+    position: fixed;
+    z-index: 0;
+}
+/* .text-conteiner{
+    display: flex;
+    justify-content: center;
+} */
+.imagem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.test{
+    padding-left: 30px;
+    display: flex;
+    gap: 30px;
+}
+
+.test2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    row-gap: 20px;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+}
